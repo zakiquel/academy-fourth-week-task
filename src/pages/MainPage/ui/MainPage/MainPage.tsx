@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 
+import CardCourse from '@/entities/Card/ui/Card/Card';
 import DarkIcon from "@/shared/assets/icons/theme-dark.svg";
 import LightIcon from "@/shared/assets/icons/theme-light.svg";
 import { Theme } from "@/shared/const/theme";
@@ -22,6 +23,8 @@ const MainPage = () => {
         {theme === Theme.DARK ? <LightIcon /> : <DarkIcon />}
       </Button>
       Main Page
+
+      <CardCourse />
     </main>
   )
 }
