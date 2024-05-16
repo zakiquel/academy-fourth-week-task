@@ -1,0 +1,214 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Introduction to Programming",
+      "description": "This course provides an introduction to the fundamentals of programming.",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Basic Concepts of Programming",
+          "tasks": [
+            {
+              "id": "1",
+              "name": "Write a program to print 'Hello, World!'"
+            },
+            {
+              "id": "2",
+              "name": "Write a program to calculate the sum of two numbers"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Variables and Data Types",
+          "tasks": [
+            {
+              "id": "3",
+              "name": "Declare and initialize variables of different data types"
+            },
+            {
+              "id": "4",
+              "name": "Write a program to convert temperature from Celsius to Fahrenheit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Web Development Basics",
+      "description": "This course covers the basics of web development.",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "HTML Fundamentals",
+          "tasks": [
+            {
+              "id": "5",
+              "name": "Create a basic HTML page with headings and paragraphs"
+            },
+            {
+              "id": "6",
+              "name": "Add images and links to an HTML page"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "CSS Styling",
+          "tasks": [
+            {
+              "id": "7",
+              "name": "Style HTML elements using CSS"
+            },
+            {
+              "id": "8",
+              "name": "Create a responsive layout using CSS Flexbox"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Python Programming",
+      "description": "This course focuses on learning Python programming language.",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Basic Syntax and Data Types",
+          "tasks": [
+            {
+              "id": "9",
+              "name": "Write a Python program to find the factorial of a number"
+            },
+            {
+              "id": "10",
+              "name": "Write a Python program to check if a number is prime"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Control Flow Statements",
+          "tasks": [
+            {
+              "id": "11",
+              "name": "Write a Python program to find the largest among three numbers"
+            },
+            {
+              "id": "12",
+              "name": "Write a Python program to check if a year is a leap year"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Database Management",
+      "description": "This course covers the basics of database management systems.",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Relational Database Concepts",
+          "tasks": [
+            {
+              "id": "13",
+              "name": "Create tables and define relationships in a relational database"
+            },
+            {
+              "id": "14",
+              "name": "Write SQL queries to retrieve data from a database"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Database Normalization",
+          "tasks": [
+            {
+              "id": "15",
+              "name": "Normalize a given set of data into first, second, and third normal forms"
+            },
+            {
+              "id": "16",
+              "name": "Identify and resolve database anomalies"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Machine Learning Fundamentals",
+      "description": "This course introduces the basics of machine learning algorithms.",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Supervised Learning",
+          "tasks": [
+            {
+              "id": "17",
+              "name": "Implement a linear regression model in Python"
+            },
+            {
+              "id": "18",
+              "name": "Build a decision tree classifier for a given dataset"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Unsupervised Learning",
+          "tasks": [
+            {
+              "id": "19",
+              "name": "Cluster a dataset using K-means algorithm"
+            },
+            {
+              "id": "20",
+              "name": "Apply principal component analysis (PCA) to reduce dimensionality"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Cybersecurity Essentials",
+      "description": "This course provides an overview of cybersecurity concepts and practices.",
+      "chapters": [
+        {
+          "id": "1",
+          "title": "Network Security",
+          "tasks": [
+            {
+              "id": "21",
+              "name": "Configure firewall settings to enhance network security"
+            },
+            {
+              "id": "22",
+              "name": "Implement secure communication using HTTPS protocol"
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "title": "Cryptographic Techniques",
+          "tasks": [
+            {
+              "id": "23",
+              "name": "Encrypt and decrypt messages using symmetric key cryptography"
+            },
+            {
+              "id": "24",
+              "name": "Generate digital signatures for authentication purposes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
