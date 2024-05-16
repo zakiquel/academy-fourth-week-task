@@ -6,11 +6,14 @@ interface CourseDetailsPageProps {
   className?: string;
 }
 
-export const CourseDetailsPage = memo((props: CourseDetailsPageProps) => {
+const CourseDetailsPage = (props: CourseDetailsPageProps) => {
   const { className } = props;
   return (
     <main className={cls.CourseDetailsPage}>
-      ..
+      CourseDetails Page
     </main>
   );
-});
+};
+
+export default memo(CourseDetailsPage);
+
