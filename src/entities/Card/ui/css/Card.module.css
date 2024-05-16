@@ -1,0 +1,74 @@
+.card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 287px;
+  height: 287px;
+}
+
+.cardTitle {
+  font: var(--paragraph-20);
+  color: var(--indigo);
+  margin-bottom: 12px;
+  font-weight: var(--semi-bold);
+}
+
+.cardDescription {
+  font: var(--paragraph-16);
+  color: var(--black);
+  margin-bottom: 129px;
+  font-weight: var(--regular);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnSelectBtn {
+  border: 2px solid var(--blue-default);
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--blue-default);
+  font-weight: var(--semi-bold);
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 187px;
+  height: 44px;
+  justify-content: center;
+}
+.btnSelectBtn:hover {
+  background-color: var(--blue-hovered);
+  color: var(--white);
+  font: var(--paragraph-14);
+  font-weight: var(--semi-bold);
+}
+
+.heartIcon {
+  color: var(--blue-default);
+  cursor: pointer;
+}
+.btnHeartDiv {
+  width: 44px;
+  height: 44px;
+  border: 2px solid var(--light-blue);
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+  transition: opacity 0.3s;
+}
+.btnHeartDiv svg.heartIcon {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  transition: fill 0.3s ease;
+}
+.btnHeartDiv svg.heartIcon:hover {
+  fill: var(--blue-default);
+}
