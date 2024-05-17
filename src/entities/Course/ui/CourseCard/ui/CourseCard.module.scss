@@ -1,5 +1,7 @@
 .card {
-	background-color: var(--white);
+	background-color: var(--card-bg-color);
+	// background-image: url('/academy-fourth-week-task/src/shared/assets/card__bgc.svg');
+
 	border-radius: 10px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	padding: 20px;
@@ -13,14 +15,14 @@
 
 .cardTitle {
 	font: var(--paragraph-20);
-	color: var(--indigo);
+	color: var(--card-title-color);
 	margin-bottom: 12px;
 	font-weight: var(--semi-bold);
 }
 
 .cardDescription {
 	font: var(--paragraph-16);
-	color: var(--black);
+	color: var(--card-description-color);
 	margin-bottom: 129px;
 	font-weight: var(--regular);
 }
@@ -32,10 +34,10 @@
 }
 
 .btnSelectBtn {
-	border: 2px solid var(--blue-default);
+	border: 2px solid var(--card-border-color);
 	border-radius: 5px;
 	background-color: transparent;
-	color: var(--blue-default);
+	color: var(--card-button-color);
 	font-weight: var(--semi-bold);
 	padding: 5px 10px;
 	cursor: pointer;
@@ -45,8 +47,8 @@
 	justify-content: center;
 
 	&:hover {
-		background-color: var(--blue-hovered);
-		color: var(--white);
+		background-color: var(--card-button-color-hover);
+		color: var(--card-button-color-text-hover);
 		font: var(--paragraph-14);
 		font-weight: var(--semi-bold);
 	}
@@ -62,6 +64,7 @@
 	height: 44px;
 	border: 2px solid var(--light-blue);
 	display: flex;
+	background-color: white;
 	justify-content: center;
 	border-radius: 8px;
 	transition: opacity 0.3s;

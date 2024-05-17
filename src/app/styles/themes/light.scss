@@ -3,4 +3,13 @@
   --inverted-bg-color: #E3E6FF;
   --title-color: #333333;
   --primary-color: #161F69;
+
+  // Card стили
+  --card-bg-color: #f9f9f9;
+  --card-title-color: var(--indigo);
+  --card-description-color: var(--black);
+  --card-border-color:var(--blue-default);
+  --card-button-color:var(--indigo);
+  --card-button-color-hover:var(--blue-hovered);
+  --card-button-color-text-hover:var(--white);
 }
