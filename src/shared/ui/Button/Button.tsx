@@ -4,7 +4,7 @@ import { classNames, Mods } from '@/shared/lib/classNames/classNames';
 
 import cls from './Button.module.scss';
 
-export type ButtonVariant = 'clear' | 'outline' | 'filled';
+export type ButtonVariant = 'clear' | 'stroke' | 'filled';
 
 export type ButtonSize = 'm' | 'l' | 'xl';
 
@@ -24,7 +24,7 @@ export const Button = memo((props: ButtonProps) => {
   const {
     className,
     children,
-    variant = 'outline',
+    variant = 'stroke',
     square,
     size = 'm',
     disabled,

@@ -3,11 +3,45 @@
   --inverted-bg-color: #2c2c3b;
   --title-color: #E3E6FF;
   --primary-color: #ffffff;
-  --card-bg-color: #444444; 
+
+    // Card стили
+  --card-bg-color: var(--black); 
+  --card-bg-color-hovered: var(--black-hovered); 
   --card-title-color: var(--lavender);
   --card-description-color: var(--white);
-  --card-border-color:var(--lavender);
-  --card-button-color:var(--light-blue);
-  --card-button-color-hover:var(--lavender);
-  --card-button-color-text-hover:var(--black);
+  --card-border-color:var(--darkest-grey);
+  
+
+  // Button stroke
+  --button-stroke-color:var(--light-blue);
+  --button-stroke-border:var(--lavender);
+  --button-stroke-bgc:var(--black);
+
+  --button-stroke-bgc-hover:var(--darkest-grey);
+
+  --button-stroke-bgc-pressed:var(--lavender);
+  --button-stroke-color-pressed:var(--black);
+
+  --button-stroke-bgc-disabled:var(--black);
+  --button-stroke-color-disabled:var(--medium-grey);
+  --button-stroke-border-disabled:var(--medium-grey);
+
+
+
+  // Button filled
+  --button-filled-color:var(--black);
+  --button-filled-border:var(--lavender);
+  --button-filled-bgc:var(--lavender);
+
+  --button-filled-bgc-hover:var(--light-blue);
+  --button-filled-color-hover:var(--black);
+
+  --button-filled-bgc-pressed:var(--blue);
+  --button-filled-color-pressed:var(--light-blue);
+
+  --button-filled-bgc-disabled:var(--darkest-grey);
+  --button-filled-color-disabled:var(--grey);
+  --button-filled-border-disabled:var(--darkest-grey);
+
+
 }
